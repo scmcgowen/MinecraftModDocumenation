@@ -20,9 +20,9 @@ Feed 1 pig, 1 chiken, 1 sheep and 1 cow souls to [automata core](automata.md) wi
 
 ## Extra methods
 
-| Function                                          | Returns | Description                                                                                                     |
-|---------------------------------------------------|---------|-----------------------------------------------------------------------------------------------------------------|
-| harvest(direction?: [Direction](introduction.md#direction))                                            | [Result](introduction.md#result)  | Tries to harvest crop. Crop will not be broken, works like right click harvest      |
+| Function                                                    | Returns                          | Description                                                                    |
+| ----------------------------------------------------------- | -------------------------------- | ------------------------------------------------------------------------------ |
+| harvest(direction?: [Direction](../API/introduction.md#direction) | [Result](../API/introduction.md#result) | Tries to harvest crop. Crop will not be broken, works like right click harvest |
 
 ## Notes
 

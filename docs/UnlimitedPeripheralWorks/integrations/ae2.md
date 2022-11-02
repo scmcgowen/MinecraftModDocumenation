@@ -26,3 +26,70 @@ This integration allows you to interact with AE2 network itself, transforming so
 | getPatternsFor("fluid", fluid_id: String)                                        | table   | Returns list of patterns, that exists for particual fluid inside AE2 system                        |
 | scheduleCrafting("item", item_id: String, amount?: number, targetCPU?: string)   | [Result](introduction.md#result)  | Try to schedule crafting for an item                                                               |
 | scheduleCrafting("fluid", fluid_id: String, amount?: number, targetCPU?: string) | [Result](introduction.md#result)  | Try to schedule crafting for an fluid                                                              |
+
+## Output examples
+
+> [!info]- getChannelInformation example
+> ```json
+> {
+>   "maxChannels": 8,
+>   "usedChannels": 5
+> }
+> ```
+
+> [!info]- getCraftingCPUs example
+> ```json
+> [
+>   {
+>       "capacity": 1,
+>       "isBusy": false,
+>       "storage": 262144,
+>       "name": "CPUH"
+>   }
+> ]
+> ```
+
+> [!info]- getCraftableItems example
+> ```json
+> [
+>   {
+>       "name": "Oak Planks",
+>       "technicalName": "minecraft:oak_planks"
+>   }
+> ]
+> ```
+
+> [!info]- getCraftableFluids example
+> ```json
+>   {
+>       "name": "minecraft:lava"
+>   }
+> ```
+
+> [!info]- getPatternsFor example
+> ```json
+> [
+>   {
+>       "inputs": [
+>           {
+>               "count": 1,
+>               "maxStackCount": 64,
+>               "name": "Oak logs",
+>               "tags": {},
+>               "techicalName": "minecraft:oak_log",
+>               "type": "item"
+>           }
+>       ],
+>       "outputs": [
+>            {
+>               "count": 4,
+>               "maxStackCount": 64,
+>               "name": "Oak Planks",
+>               "tags": {},
+>               "techicalName": "minecraft:oak_planks",
+>               "type": "item"
+>           }
+>       ]
+>   }
+> ]
+> ```
