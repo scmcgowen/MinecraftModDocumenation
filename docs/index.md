@@ -1,11 +1,6 @@
-# Obsidian Notes
+# SirEdvin's mods hub
 
-Publish your public notes with MkDocs
+Here I will place documentation for my current minecraft mods (mostly ComputerCraft related).
 
-## Hello World!
-
-The `index.md` in the `/docs` folder is the homepage you see here.
-
-The folders in `/docs` appear as the main sections on the navigation bar.
-
-The notes appear as pages within these sections. For example, [[Note 1]] in `Topic 1`
+[![Turtlematic](images/turtlematic.png)](./turtlematic/index.md)
+[![UnlimitedPeripheralWorks](images/unlimitedperipheralworks.png)](./unlimitedperipheralworks/index.md)

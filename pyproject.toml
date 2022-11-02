@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "testmkdocsobisidian"
+version = "0.1.0"
+description = ""
+authors = ["SirEdvin <siredvin.dark@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mkdocs-material = "^8.5.7"
+mkdocs-roamlinks-plugin = "^0.2.0"
+mkdocs-callouts = "^1.8.1"
+mkdocs-mermaid2-plugin = "^0.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
