@@ -6,7 +6,7 @@ This integration allows you to interact with AE2 network itself, transforming so
 
 ## Supported APIs
 
-- [Storage](https://docs.siredvin.site/unlimitedperipheralworks/storage/) API for all items, that stored inside system
+- [[storage|Storage]] API for all items, that stored inside system
 - [fluid_storage](https://tweaked.cc/generic_peripheral/fluid_storage.html) API for all fluids, that stored inside system
 
 ## Additional peripheral methods
@@ -24,5 +24,5 @@ This integration allows you to interact with AE2 network itself, transforming so
 | getCraftableFluids                                                               | table   | Returns list of craftable fluids inside AE2 system                                                 |
 | getPatternsFor("item", item_id: String)                                          | table   | Returns list of patterns, that exists for particual item inside AE2 system                         |
 | getPatternsFor("fluid", fluid_id: String)                                        | table   | Returns list of patterns, that exists for particual fluid inside AE2 system                        |
-| scheduleCrafting("item", item_id: String, amount?: number, targetCPU?: string)   | [Result](https://docs.siredvin.site/turtlematic/api/introduction/#result)  | Try to schedule crafting for an item                                                               |
-| scheduleCrafting("fluid", fluid_id: String, amount?: number, targetCPU?: string) | [Result](https://docs.siredvin.site/turtlematic/api/introduction/#result)  | Try to schedule crafting for an fluid                                                              |
+| scheduleCrafting("item", item_id: String, amount?: number, targetCPU?: string)   | [Result](introduction.md#result)  | Try to schedule crafting for an item                                                               |
+| scheduleCrafting("fluid", fluid_id: String, amount?: number, targetCPU?: string) | [Result](introduction.md#result)  | Try to schedule crafting for an fluid                                                              |
