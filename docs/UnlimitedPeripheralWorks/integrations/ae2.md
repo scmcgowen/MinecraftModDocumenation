@@ -4,6 +4,13 @@ Applied Energistics 2 is a mod for [Minecraft](https://www.minecraft.net/) which
 
 This integration allows you to interact with AE2 network itself, transforming some blocks (CPU cores, energy modules) into peripheral, that would provide full-featured AE2 integration.
 
+> [!tip]- Okey, so what I can use exacly to access AE2 network peripheral?
+> Any of this blocks, if they are connected to network
+> 
+> - Any Energy cell
+> - Any crafting block: unit, co-processor or storage
+> - Crystal grown accelerator
+
 ## Supported APIs
 
 - [[storage|Storage]] API for all items, that stored inside system
