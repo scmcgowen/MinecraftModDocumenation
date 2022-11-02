@@ -1,0 +1,152 @@
+{
+  "main": {
+    "id": "5f217aaf78213044",
+    "type": "split",
+    "children": [
+      {
+        "id": "0c60706e942f2dd8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ebc03e691cf50a40",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "UnlimitedPeripheralWorks/minecraft/jukebox.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "355c0a41678e0aeb",
+    "type": "split",
+    "children": [
+      {
+        "id": "9432d3e76f70c1b2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eacdbc2b952a964f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "34740d89e4f84b90",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "56cb71998f0789bc",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7af700aef7642833",
+    "type": "split",
+    "children": [
+      {
+        "id": "49d41ea1a694c060",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cdc6be8809dc7cc9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "UnlimitedPeripheralWorks/minecraft/jukebox.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8230fa6333a0d53e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "UnlimitedPeripheralWorks/minecraft/jukebox.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "52768e6bb8e67517",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "d7fcd62a71ec6db3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "UnlimitedPeripheralWorks/minecraft/jukebox.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "ebc03e691cf50a40",
+  "lastOpenFiles": [
+    "index.md",
+    "Turtlematic/index.md",
+    "Turtlematic/miscellaneous/soul_scrapper.md",
+    "Turtlematic/miscellaneous/piston_turtle.md",
+    "Turtlematic/miscellaneous/lava_bucket.md",
+    "Turtlematic/miscellaneous/creative_chest.md",
+    "Turtlematic/miscellaneous/turtle_chatter.md",
+    "Turtlematic/automata/end.md",
+    "Turtlematic/automata/husbandry.md",
+    "Turtlematic/automata/brewing.md"
+  ]
+}
