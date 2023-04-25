@@ -17,6 +17,7 @@ With this mod turtles will be able to:
 - Capture and release blocks and mobs
 - Searching for mobs or items around turtle
 - Harvest crops without block breaking
+- Trading with villagers and traders
 
 ### Extra crafting
 

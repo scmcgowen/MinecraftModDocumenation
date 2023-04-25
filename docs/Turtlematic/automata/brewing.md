@@ -45,7 +45,7 @@ Feed cleric villager to forged automata core with [soul scrapper](soul_scrapper.
 >             "duration": 1474,
 >             "isAmbient": false,
 >             "name": "Regeneration",
->             "technicalName": "effects.minecraft.regeneration"
+>             "technicalName": "minecraft:regeneration"
 >         }
 >     ]
 > }
