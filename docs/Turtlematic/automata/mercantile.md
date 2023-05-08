@@ -19,13 +19,14 @@ Feed wandering trader to forged automata core with [soul scrapper](soul_scrapper
 
 | Function                                                                     | Returns                                  | Description                                                                                                                                                                                                                                                                                                  |
 | ---------------------------------------------------------------------------- | ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| trade(hint?: int, direction?: [Direction](../API/introduction.md#direction)) | [Result](introduction.md#result)[number] | Performs a trade operation, taking as trading inputs item in selected slot and item next to it (if selected slot isn't last). Returns amount of purcased items. If several trades available with this combination of items, hint is required. Order of traders in sync with offers list from `look` function |
-| restock(direction?: [Direction](../API/introduction.md#direction))           | [Result](introduction.md#result)         | Tries to restock offers. Will work only for villagers, available for Starbound core version                                                                                                                                                                                                                  |
+| trade(hint?: int, direction?: [Direction](introduction.md#direction)) | [Result](introduction.md#result)[number] | Performs a trade operation, taking as trading inputs item in selected slot and item next to it (if selected slot isn't last). Returns amount of purcased items. If several trades available with this combination of items, hint is required. Order of traders in sync with offers list from `look` function |
+| restock(direction?: [Direction](introduction.md#direction))           | [Result](introduction.md#result)         | Tries to restock offers. Will work only for villagers, available for Starbound core version                                                                                                                                                                                                                  |
 
 ## Notes
 
 > [!tip]- XP notes
 > XP from trading operations will not be gather automatically and should be collected via `collectXP` function
+
 > [!tip]- How I can get information about merchant trades?
 > Just use `look("entity")` function! Output of merchant entity will be enriched with `offers`. Sometimes, this list can contains `nil` elements, which means, that this offers are out of stock.
 > ```javascript

@@ -10,6 +10,31 @@ Some librarian often founds lectern pretty useful, but it was always a problem t
 <br class="clearBoth" />
 <br class="clearBoth" />
 
+## Events
+
+For any computer connected to lectern, you will receive a set of events
+
+### lectern_page_changed
+
+When someone changed page on lectern
+
+#### Values
+
+1. `current_page: number` current page for lectern
+
+### lectern_book_removed
+
+When book removed from lectern
+
+### lectern_book_changed
+
+When book on lectern was placed or replaced with another book
+
+#### Values
+
+1. `book_name: string` name of new book, can be "Book and Quill" or something more useful
+2. `player_name?: string` optional name of player who changed the book
+
 ## Peripheral methods
 
 | Function                                | Returns | Description                                                                                                                           |
