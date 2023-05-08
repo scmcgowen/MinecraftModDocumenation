@@ -54,11 +54,11 @@ _Result_ can also be parametrized, for example as `Result[number]`, which means 
 ### ItemQuery
 
 !!! warning
-    Prior to 1.19.4, ItemQuery type was not existed, so instead of it you can use only string version of this argument
+    Before 1.19.4, ItemQuery type did not exist, so instead of it you can use only the string version of this argument
 
-ItemQuery is powerful argument, that supposed to help you build filters for items, extracting them in more precise way, than just item ID.
+ItemQuery is a powerful argument, that is supposed to help you build filters for items, extracting them in a more precise way, than just item ID.
 
-You can pass to argument, that have type ItemQuery a string, and it will become just regular item ID filter. 
+You can pass to an argument, that has type ItemQuery a string, and it will become just a regular item ID filter. 
 
 But you can also pass a table
 
@@ -71,11 +71,11 @@ But you can also pass a table
 }
 ```
 
-Table can have zero or more keys and all of them will be required from item at once. So, for example, if you want to search for written book with name "Small and Big owls", you can pass next itemQuery
+A table can have zero or more keys and all of them will be required from the item at once. So, for example, if you want to search for a written book with the name "Small and Big Owls", you can pass next itemQuery
 
 ```lua
 {
     name = "minecraft:written_book",
-    displayName = "Small and Big owls"
+    displayName = "Small and Big Owls"
 }
 ```

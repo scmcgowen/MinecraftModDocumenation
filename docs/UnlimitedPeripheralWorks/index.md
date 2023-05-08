@@ -21,6 +21,11 @@ UnlimitedPeripheralWorks is addon focused on providing a lot of peripherals for 
 - [Lifts](lifts.md)
 - [Applied Energistics 2](ae2.md)
 - [Modern Industrialization](modern_industrialization.md)
+- [Nature's Compass](natures_compass.md)
+- [Tom's Simple Storage](toms_storage.md)
+- [Integrated Dynamics](integrated_dynamics.md)
+- [Occultism](occultism.md)
+- [Easy Villagers](easy_villagers.md)
 
 ## Supported versions
 

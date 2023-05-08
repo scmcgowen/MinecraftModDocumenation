@@ -29,7 +29,7 @@ Feed wandering trader to forged automata core with [soul scrapper](soul_scrapper
 
 > [!tip]- How I can get information about merchant trades?
 > Just use `look("entity")` function! Output of merchant entity will be enriched with `offers`. Sometimes, this list can contains `nil` elements, which means, that this offers are out of stock.
-> ```javascript
+> ```json
 > {
 >    "type":"Wandering Trader",
 >    "name":"Wandering Trader",
