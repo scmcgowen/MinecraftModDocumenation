@@ -11,6 +11,7 @@ mkdocs-material = "^8.5.7"
 mkdocs-roamlinks-plugin = "^0.2.0"
 mkdocs-callouts = "^1.8.1"
 mkdocs-mermaid2-plugin = "^0.6.0"
+mkdocs-autolinks-plugin = "^0.7.0"
 
 
 [build-system]

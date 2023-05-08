@@ -17,6 +17,7 @@ With this mod turtles will be able to:
 - Capture and release blocks and mobs
 - Searching for mobs or items around turtle
 - Harvest crops without block breaking
+- Trading with villagers and traders
 
 ### Extra crafting
 
@@ -33,19 +34,19 @@ With this mod turtles will be able to:
 and more feature comes
 
 ## Getting started
-![Header](../images/soul_vial_recipe.png)
+![Header](soul_vial_recipe.png)
 Soul vial recipe
 
 To start with the main part of this mod, you need to obtain a Soul vial and start gathering souls. To collect soul you just need to right click on soul sand with this vial, it consumes soul and transform soul sand into usual sand. You can track soul consumption progress by tooltip and image picture. After enough soul it will be transformed into "Filled soul vial" that can be used to craft your first [automata](automata.md)!
 
 ## Improving automata core
 
-![Header](../images/soul_scrapper_recipe.png)
+![Header](soul_scrapper_recipe.png)
 Soul scrapper recipe
 
 Crafted automata core is just the first step. To improve it you need a tool, that will allow to you to collect souls and infuse your automata core with it. This tool is called [Soul Scrapper](soul_scrapper.md). Terrifying scythe that are too evil to be used by human hand. Thankfully, you can use turtles for this dirty and evil job.
 
-![Header](../images/soul_scrapping_turtle.png)
+![Header](soul_scrapping_turtle.png)
 Poor cow
 
 At [automata](automata.md) page you can see cores, that can be created from base one.

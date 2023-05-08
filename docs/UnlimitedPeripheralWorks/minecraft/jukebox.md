@@ -1,8 +1,13 @@
 # Jukebox
-<span class="describeimg">![[jukebox.png]]</span>
-Pretty standard jukebox integration, that allows you to make automatic playlist.
+!!! picture inline end
+    ![Jukebox](jukebox.png)
+
+Pretty standart jukebox integration, that allows you to make automatic playlist.
 
 <br class="clearBoth" />
+<br class="clearBoth" />
+<br class="clearBoth" />
+
 ## Peripheral methods
 
 | Function                               | Returns | Description                                                        |

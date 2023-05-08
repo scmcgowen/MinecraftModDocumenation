@@ -1,5 +1,7 @@
 # Automata
-<span class="describeimg">![[automata_turtle.png]]</span>
+
+!!! picture inline end
+    ![Automata turtle](automata_turtle.png)
 
 Your first automata core, that starts your journey into mystery turtlematic world.
 

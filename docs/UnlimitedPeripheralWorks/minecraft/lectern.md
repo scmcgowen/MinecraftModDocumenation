@@ -1,7 +1,13 @@
 # Lectern
-<span class="describeimg">![[lectern.png|Lectern]]</span>
+
+!!! picture inline end
+    ![Lectern](lectern.png)
+
 
 Some librarian often founds lectern pretty useful, but it was always a problem to write long books. Now you can do it with one little program!
+<br class="clearBoth" />
+<br class="clearBoth" />
+<br class="clearBoth" />
 <br class="clearBoth" />
 
 ## Peripheral methods
@@ -19,3 +25,28 @@ Some librarian often founds lectern pretty useful, but it was always a problem t
 | editPage(page: number, text: string)    | boolean | Tries to change page text. Error if no book or book is not editable or page number is not correct                                     |
 | ejectBook(to: string)                   | [Result](introduction.md#result)  | Tries to move book on lectern to target storage                                                                                       |
 | injectBook(from: string, name?: string) | [Result](introduction.md#result)  | Tries to move book to lectern from target storage. Will transfer first suitable book. If name provided, book will be filtered by name |
+
+## Events
+
+For any computer connected to lectern, you will receive a set of events
+
+### lectern_page_changed
+
+When someone changed page on lectern
+
+#### Values
+
+1. `current_page: number` current page for lectern
+
+### lectern_book_removed
+
+When book removed from lectern
+
+### lectern_book_changed
+
+When book on lectern was placed or replaced with another book
+
+#### Values
+
+1. `book_name: string` name of new book, can be "Book and Quill" or something more useful
+2. `player_name?: string` optional name of player who changed the book

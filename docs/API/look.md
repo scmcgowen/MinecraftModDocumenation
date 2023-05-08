@@ -6,20 +6,18 @@ Look API are mostly just improved `inspect` from ComputerCraft Turtle API. It is
 |----------------------------------------------------|---------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | look(mode: [InteractionMode](introduction.md#interaction-mode), direction?: [Direction](introduction.md#direction)) | table   | Returns detailed information about first target in line of sight.  |
 
-> [!tip]- "Look output examples"
-> > [!tip]- Entity
-> > ```json
-> > {
-> >     "type": "Cow",
-> >     "name": "Cow",
-> >     "category": "CREATURE",
-> >     "id": 1269,
-> >     "tags": {},
-> >     "uuid": "0737fd25-a1b6-4a1a-9cdd-3081e0155bb6"
-> > }
-> > ```
->
-> > [!tip]- Block
-> > ```json
-> > {}
-> > ```
+??? tip "Look output examples"
+    ??? tip "Entity"
+        ```json
+        {
+            "type": "Cow",
+            "name": "Cow",
+            "category": "CREATURE",
+            "id": 1269,
+            "tags": {},
+            "uuid": "0737fd25-a1b6-4a1a-9cdd-3081e0155bb6"
+        }
+        ```
+    ??? tip "Block"
+        ```json
+        ```

@@ -1,9 +1,14 @@
 # Creative chest
 
-<span class="describeimg">![[creative_chest_turtle.png]]</span>
+!!! picture inline end
+    ![Creative chest turtle](creative_chest_turtle.png)
 
 Why the hell in creative mode turtle can't generate items? Tell no more, this upgrade just for you.
 
+<br class="clearBoth" />
+<br class="clearBoth" />
+<br class="clearBoth" />
+<br class="clearBoth" />
 <br class="clearBoth" />
 
 | Function                                                | Returns | Description                                                          |

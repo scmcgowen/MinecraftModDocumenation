@@ -1,7 +1,12 @@
 # Note Block
-<span class="describeimg">![[noteblock.png]]</span>
+
+!!! picture inline end
+    ![Notebook](noteblock.png)
 
 If you even dream about building automatic ensemble, here is your building blocks!
+<br class="clearBoth" />
+<br class="clearBoth" />
+<br class="clearBoth" />
 <br class="clearBoth" />
 
 ## Peripheral methods

@@ -1,9 +1,12 @@
 # Lava bucket turtle
 
-<span class="describeimg">![[lava_bucket_turtle.png]]</span>
+!!! picture inline end
+    ![Creative chest turtle](lava_bucket_turtle.png)
 
 Did you tired from a lot of random trash in your turtle inventory? Tell me no more, now you can use lava bucket as peripheral for turtle to void items in your inventory
 
+<br class="clearBoth" />
+<br class="clearBoth" />
 <br class="clearBoth" />
 
 ## Peripheral methods

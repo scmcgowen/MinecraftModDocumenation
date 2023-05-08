@@ -1,6 +1,7 @@
 # End automata
 
-<span class="describeimg">![[end_automata_turtle.png]]</span>
+!!! picture inline end
+    ![End automata turtle](end_automata_turtle.png)
 
 Advanced automata that can harness power of the End.
 

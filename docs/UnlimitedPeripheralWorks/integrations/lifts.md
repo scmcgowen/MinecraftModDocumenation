@@ -4,8 +4,8 @@
 
 This integration allows you to control lift and moves it via CC computers. Any lift controller will provide such capabilities to you
 
-> [!info]
-> This integration only for 1.18, lifts not yet updated to 1.19
+??? info "Supported versions"
+    **Fabric**: Only 1.18
 
 ## Peripheral methods
 

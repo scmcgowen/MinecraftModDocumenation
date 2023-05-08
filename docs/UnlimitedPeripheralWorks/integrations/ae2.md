@@ -11,10 +11,13 @@ This integration allows you to interact with AE2 network itself, transforming so
 > - Any crafting block: unit, co-processor or storage
 > - Crystal grown accelerator
 
+??? info "Supported versions"
+    **Fabric**: 1.18, 1.19.2
+
 ## Supported APIs
 
-- [[storage|Storage]] API for all items, that stored inside system
-- [fluid_storage](https://tweaked.cc/generic_peripheral/fluid_storage.html) API for all fluids, that stored inside system
+- [Item storage](item_storage.md) API for all items, that stored inside system
+- [Fluid storage](https://tweaked.cc/generic_peripheral/fluid_storage.html) API for all fluids, that stored inside system
 
 ## Additional peripheral methods
 

@@ -1,12 +1,16 @@
 # Soul scrapper
 
-<span class="describeimg">![[soul_scrapper.png]]</span>
+!!! picture inline end
+    ![Creative chest turtle](soul_scrapper.png)
 
 Terrible tool, that allows you to infuse an item in a selected slot with soul of any mob, that you will find on the way.
-<br class="clearBoth" />
 
 > [!info] What I can infuse?
 > Currently, only [automata core](automata.md) can be infused
+
+<br class="clearBoth" />
+<br class="clearBoth" />
+<br class="clearBoth" />
 
 | Function           | Returns | Description                                                                        |
 |--------------------|---------|------------------------------------------------------------------------------------|

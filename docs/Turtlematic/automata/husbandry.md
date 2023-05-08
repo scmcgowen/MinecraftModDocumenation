@@ -1,6 +1,7 @@
 # Husbandry automata
 
-<span class="describeimg">![[husbandry_automata_turtle.png]]</span>
+!!! picture inline end
+    ![Husbandry automata turtle](husbandry_automata_turtle.png)
 
 Advanced automata that can harness power of the nature. This automata provider extra capabilities of take care about peaceful mobs and crops (nether wart and cocoa beans included!).
 
@@ -22,7 +23,7 @@ Feed 1 pig, 1 chiken, 1 sheep and 1 cow souls to [automata core](automata.md) wi
 
 | Function                                                    | Returns                          | Description                                                                    |
 | ----------------------------------------------------------- | -------------------------------- | ------------------------------------------------------------------------------ |
-| harvest(direction?: [Direction](../API/introduction.md#direction) | [Result](../API/introduction.md#result) | Tries to harvest crop. Crop will not be broken, works like right click harvest |
+| harvest(direction?: [Direction](introduction.md#direction) | [Result](introduction.md#result) | Tries to harvest crop. Crop will not be broken, works like right click harvest |
 
 ## Notes
 
@@ -68,7 +69,7 @@ Feed 1 pig, 1 chiken, 1 sheep and 1 cow souls to [automata core](automata.md) wi
 > "tags": [
 >     "minecraft:mineable/axe",
 >     "turtlematic:husbandry_extra_crops"
-> ]
+>   ]
 > }
 > ```
 > 
@@ -95,7 +96,7 @@ Feed 1 pig, 1 chiken, 1 sheep and 1 cow souls to [automata core](automata.md) wi
 > "tags": [
 >     "minecraft:mineable/axe",
 >     "minecraft:beehives"
-> ]
+>   ]
 > }
 > ```
 
