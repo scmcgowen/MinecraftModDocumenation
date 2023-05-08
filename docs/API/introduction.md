@@ -49,3 +49,33 @@ All functions, that accept _direction_ as arguments, work with objects in line o
 _Result_ are always representing result of called operation. First argument will tell you is operation was successful and second one will tell you reason why operation is failed.
 
 _Result_ can also be parametrized, for example as `Result[number]`, which means it will return operation result as first argument (or nil) and as second argument it will tell you reason why operation is failed.
+
+
+### ItemQuery
+
+!!! warning
+    Prior to 1.19.4, ItemQuery type was not existed, so instead of it you can use only string version of this argument
+
+ItemQuery is powerful argument, that supposed to help you build filters for items, extracting them in more precise way, than just item ID.
+
+You can pass to argument, that have type ItemQuery a string, and it will become just regular item ID filter. 
+
+But you can also pass a table
+
+```lua
+{
+    nbt = "<item nbt hash>",
+    tag = "minecraft:lapis_ores",
+    displayName = "Deepslate Lapis Lazuli Ore",
+    name = "minecraft:deepslate_lapis_ore"
+}
+```
+
+Table can have zero or more keys and all of them will be required from item at once. So, for example, if you want to search for written book with name "Small and Big owls", you can pass next itemQuery
+
+```lua
+{
+    name = "minecraft:written_book",
+    displayName = "Small and Big owls"
+}
+```

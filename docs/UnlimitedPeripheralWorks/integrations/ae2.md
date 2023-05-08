@@ -28,10 +28,10 @@ This integration allows you to interact with AE2 network itself, transforming so
 | getAverageEnergyDemand()                                                         | number  | Returns average energy demand of AE2 system                                                        |
 | getAverageEnergyIncome()                                                         | number  | Returns average energy income for AE2 system                                                       |
 | getChannelEnergyDemand()                                                         | number  | Returns amount of energy that spent for channels                                                   |
-| getChannelInformation                                                            | table   | Returns information about maxium and actual amount of channels in AE2                              |
-| getCraftingCPUs                                                                  | table   | Returns detailed information about crafting CPUS, including name, capacity, storage and occupation |
-| getCraftableItems                                                                | table   | Returns list of craftable items inside AE2 system                                                  |
-| getCraftableFluids                                                               | table   | Returns list of craftable fluids inside AE2 system                                                 |
+| getChannelInformation()                                                            | table   | Returns information about maxium and actual amount of channels in AE2                              |
+| getCraftingCPUs()                                                                  | table   | Returns detailed information about crafting CPUS, including name, capacity, storage and occupation |
+| getCraftableItems()                                                                | table   | Returns list of craftable items inside AE2 system                                                  |
+| getCraftableFluids()                                                               | table   | Returns list of craftable fluids inside AE2 system                                                 |
 | getPatternsFor("item", item_id: String)                                          | table   | Returns list of patterns, that exists for particual item inside AE2 system                         |
 | getPatternsFor("fluid", fluid_id: String)                                        | table   | Returns list of patterns, that exists for particual fluid inside AE2 system                        |
 | scheduleCrafting("item", item_id: String, amount?: number, targetCPU?: string)   | [Result](introduction.md#result)  | Try to schedule crafting for an item                                                               |

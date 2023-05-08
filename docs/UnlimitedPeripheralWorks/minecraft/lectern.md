@@ -49,7 +49,10 @@ When book on lectern was placed or replaced with another book
 | removePage(page: number)                | boolean | Tries to remove existed page. Error if no book or book is not editable or page number is not correct                                  |
 | editPage(page: number, text: string)    | boolean | Tries to change page text. Error if no book or book is not editable or page number is not correct                                     |
 | ejectBook(to: string)                   | [Result](introduction.md#result)  | Tries to move book on lectern to target storage                                                                                       |
-| injectBook(from: string, name?: string) | [Result](introduction.md#result)  | Tries to move book to lectern from target storage. Will transfer first suitable book. If name provided, book will be filtered by name |
+| injectBook(from: string, itemQuery?: [ItemQuery](introduction.md#itemquery)) | [Result](introduction.md#result)  | Tries to move book to lectern from target storage. Will transfer first suitable book. If itemQuery provided, book will be filtered by it |
+
+!!! warning
+    ItemQuery scope will be limited to written or writable book in any case
 
 ## Events
 

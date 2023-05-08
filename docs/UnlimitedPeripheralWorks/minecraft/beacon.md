@@ -27,4 +27,7 @@ Beacon configuration can be complicated at first, but you need to think about it
 | getLevel()                                                                    | number  | Returns current beacon level, can be from 1 to 4                                         |
 | getPossiblePowers()                                                           | table   | Returns list of possible primary effects, that can selected                              |
 | getPowers()                                                                   | table   | Returns list of currently active effects                                                 |
-| configure(power: string, from: string, item?: string, regeneration?: boolean) | [Result](introduction.md#result)  | Tries to configure beacon with selected power, consuming single item from `from` storage |
+| configure(power: string, from: string, itemQuery?: [ItemQuery](introduction.md#itemquery), regeneration?: boolean) | [Result](introduction.md#result)  | Tries to configure beacon with selected power, consuming single item from `from` storage |
+
+!!! warning
+    ItemQuery scope in any case will be reduces to items with tag `minecraft:beacon_payment_items`

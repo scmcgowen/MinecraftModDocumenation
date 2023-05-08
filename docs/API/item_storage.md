@@ -11,7 +11,5 @@ Generic storage API are answer for fabric transfer API for items. This API are b
 | Function                                              | Returns | Description                                                                                                                                   |
 |-------------------------------------------------------|---------|-----------------------------------------------------------------------------------------------------------------------------------------------|
 | items()                                               | table   | Returns items list with description                                                                                                           |
-| pushItem(to: string, item?: string, limit?: number    | number  | Tries to push items to target storage. Items, that will be pushed can be limited via `item` parameter and limited via `limit` parameter       |
-| pullItem(from: string, item?: string, limit?: number) | number  | Tries to pull items from target storage. Items, that will be pulled can be limited via  `item`  parameter and limited via  `limit`  parameter |
-
-## ItemQuery
+| pushItem(to: string, itemQuery?: [ItemQuery](introduction.md#itemquery), limit?: number    | number  | Tries to push items to target storage. Items, that will be pushed can be limited via `itemQuery` parameter and limited via `limit` parameter       |
+| pullItem(from: string, itemQuery?: [ItemQuery](introduction.md#itemquery), limit?: number) | number  | Tries to pull items from target storage. Items, that will be pulled can be limited via  `itemQuery`  parameter and limited via  `limit`  parameter |

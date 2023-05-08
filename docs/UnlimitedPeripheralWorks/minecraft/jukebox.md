@@ -16,4 +16,7 @@ Pretty standart jukebox integration, that allows you to make automatic playlist.
 | replay()                               | nil     | Starts play disc again, error if no disc inside                    |
 | stop()                                 | nil     | Stop playing disc                                                  |
 | ejectDisc(to: string)                  | [Result](introduction.md#result)  | Tries to move disc from jukebox to target inventory                |
-| injectDisc(from: string, item: string) | [Result](introduction.md#result)  | Tries to move disc with id `item` from target inventory to jukebox |
+| injectDisc(from: string, itemQuery?: [ItemQuery](introduction.md#itemquery)) | [Result](introduction.md#result)  | Tries to move disc from target inventory to jukebox |
+
+!!! warning
+    ItemQuery scope in any case will be reduces to items with tag `minecraft:music_discs`
