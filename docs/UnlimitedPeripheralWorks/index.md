@@ -7,6 +7,13 @@ UnlimitedPeripheralWorks is addon focused on providing a lot of peripherals for 
 - [ItemStorage](item_storage.md) from fabric introduced, to works with inventories, that supports only fabric transfer API.
 - FluidStorage from fabric introduced, allows fluid transfering similar to CC:T [fluid_storage](https://tweaked.cc/generic_peripheral/fluid_storage.html) API. Should works on any fluid tank.
 
+## List of new peripherals
+
+- Pedestals! [Item pedestal](item_pedestal.md) to display items and view NBT data, [map pedestal](map_pedestal.md) to inspect map data and [display pedestal](display_pedestal.md) for nice decoration and nasty inputs.
+- [Universal scanner](universal_scanner.md) to inspect surrouding
+- [Ultimate sensor](ultimate_sensor.md) to understand world around you
+- [Peripheralium hub](peripheralium_hub.md) to bypass turtle and pocket computers limitations!
+
 ## List of minecraft blocks
 
 - [Beacon](beacon.md)

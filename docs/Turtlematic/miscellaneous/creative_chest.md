@@ -13,7 +13,7 @@ Why the hell in creative mode turtle can't generate items? Tell no more, this up
 
 | Function                                                | Returns | Description                                                          |
 |---------------------------------------------------------|---------|----------------------------------------------------------------------|
-| generate(item: string, count: number, nbtData: string?) | [Result](introduction.md#result)  | Tries to put required item with required count into turtle inventory |
+| generate(item: string, count: number, nbtData?: string) | [Result](introduction.md#result)  | Tries to put required item with required count into turtle inventory |
 
 > [!tip]- How in hell does nbtData works?
 > NBT data passing from ComputerCraft to Minecraft are ... complicated task. So currently, `nbtData` are just string that expected to be minecraft NBT data serialized into json. 
