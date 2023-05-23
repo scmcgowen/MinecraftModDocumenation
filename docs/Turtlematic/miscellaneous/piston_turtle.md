@@ -1,7 +1,7 @@
 # Piston and sticky piston turtles
 
 !!! picture inline end
-    ![Creative chest turtle](piston_turtle.png)
+    ![Piston turtle](piston_turtle.png)
 
 
 So, this is piston turtle! Now piston and sticky piston are valid upgrades for turtles and can be attached to them!

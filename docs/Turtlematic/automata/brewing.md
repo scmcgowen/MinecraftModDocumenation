@@ -1,5 +1,8 @@
 # Brewing automata
 
+!!! picture inline end
+    ![Brewing automata](brewing_automata.png)
+
 Automata that harness power of cleric villager, allows you to perform brew potions, throw it and curing villagers
 
 ## Obtaining
@@ -18,10 +21,21 @@ Feed cleric villager to forged automata core with [soul scrapper](soul_scrapper.
 
 ## Extra methods
 
-| Function                                          | Returns | Description                                                                                                     |
-|---------------------------------------------------|---------|-----------------------------------------------------------------------------------------------------------------|
-| brew()                                            | [Result](introduction.md#result)  | Performs brew operations, applying item in selected slot as brewing component to all potions in inventory.      |
-| throwPotion(power?: number, uncertainty?: number) | [Result](introduction.md#result)  | Throws potion in selected slot with provided power (controls max distance) and uncertainty (controls deviation) |
+=== "1.19.4"
+
+    | Function                                          | Returns | Description                                                                                                     |
+    |---------------------------------------------------|---------|-----------------------------------------------------------------------------------------------------------------|
+    | brew()                                            | [Result](introduction.md#result)  | Performs brew operations, applying item in selected slot as brewing component to all potions in inventory.      |
+    | throwPotion(power?: number, uncertainty?: number) | [Result](introduction.md#result)  | Throws potion in selected slot with provided power (controls max distance) and uncertainty (controls deviation) |
+
+
+=== "1.18/1.19.2"
+
+    | Function                                          | Returns | Description                                                                                                     |
+    |---------------------------------------------------|---------|-----------------------------------------------------------------------------------------------------------------|
+    | brew()                                            | [Result](introduction.md#result)  | Performs brew operations, applying item in selected slot as brewing component to all potions in inventory.      |
+    | throwPotion(power?: number, uncertainty?: number) | [Result](introduction.md#result)  | Throws potion in selected slot with provided power (controls max distance) and uncertainty (controls deviation) |
+
 
 ## Notes
 

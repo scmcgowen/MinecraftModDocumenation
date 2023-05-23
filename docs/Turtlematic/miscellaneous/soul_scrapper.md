@@ -1,7 +1,7 @@
 # Soul scrapper
 
 !!! picture inline end
-    ![Creative chest turtle](soul_scrapper.png)
+    ![Soul scrapper turtle](soul_scrapper.png)
 
 Terrible tool, that allows you to infuse an item in a selected slot with soul of any mob, that you will find on the way.
 
