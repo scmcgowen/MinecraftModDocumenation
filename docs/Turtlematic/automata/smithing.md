@@ -1,5 +1,8 @@
 # Smithing automata
 
+!!! picture inline end
+    ![Smithing automata](smithing_automata.png)
+
 Automata that harness power of toolsmithing villager, allows you to perform smithing operation and smelt items.
 
 ## Obtaining

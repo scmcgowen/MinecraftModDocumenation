@@ -4,6 +4,11 @@ Turtlematic - is mod about making turtles so useful, so you will never need any 
 
 Most of peripheral methods are collected into API methods. Every new automata core, that you will craft expand or evolve those abilities by methods and parameters will stay the same!
 
+## Supported versions
+
+**Forge**: 1.19.4
+**Fabric**: 1.18 (fixes), 1.19.2 (fixes), 1.19.4
+
 ## Current features list
 
 With this mod turtles will be able to:

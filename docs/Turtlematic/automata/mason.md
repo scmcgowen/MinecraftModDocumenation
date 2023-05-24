@@ -1,5 +1,8 @@
 # Mason automata
 
+!!! picture inline end
+    ![Mason automata](mason_automata.png)
+
 Automata that harness power of mason villager, allows you to modify appearance of different blocks in world and inventory.
 
 Mason automata also has mod support:

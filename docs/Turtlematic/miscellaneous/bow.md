@@ -3,6 +3,10 @@
 !!! picture inline end
     ![Shooting turtle](bow_turtle.png)
 
+??? info "Supported versions"
+    **Fabric**: 1.19.4
+    **Forge**: 1.19.4
+
 
 Maybe someone had a dream about turtle, finally shooting items from a bow? Well, now this dream come true. This turtle now capable of sending any items to the sky (or little closer).
 

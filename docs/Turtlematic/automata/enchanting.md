@@ -1,5 +1,8 @@
 # Enchanting automata
 
+!!! picture inline end
+    ![Enchanting automata](enchanting_automata.png)
+
 Automata that harness power of librarian villager, allows you to works with enchantments.
 
 ## Obtaining
@@ -27,3 +30,6 @@ Feed librarian villager to forged automata core with [soul scrapper](soul_scrapp
 
 > [!tip]- Enchantment power gathering
 > To perform enchantment you need to make sure, that you have enough enchantment power. Any head or bookshelf around turtle (radius of influence is 2 blocks) will give 2 extra points of enchantment power. Take a note, that turtles in the same radius will give two extra enchantment power points per enchanting book in their inventory.
+
+> [!tip]- What gives enchantment power
+> By default: bookshelf, heads, candle and candle cake. You can control this via `turtlematic:enchantment_power_provider` tag

@@ -2,6 +2,9 @@
 
 Automata that harness power of wandering trader, allows you to trade with other (more lucky) wandering traders and villagers.
 
+!!! picture inline end
+    ![Mercantile automata](mercantile_automata.png)
+
 ## Obtaining
 
 Feed wandering trader to forged automata core with [soul scrapper](soul_scrapper.md) to obtain it.
