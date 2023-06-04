@@ -17,8 +17,8 @@ Mostly this sections contains enums, that are need to be passed as strings. Enum
 | interactionMode     | string           | Enum with values: any, block, entity  |
 | areaInteractionMode | string           | Enum with values: item, block, entity |
 | direction           | string           | Enum with values: up, down            |
-| Result              | boolean, string? | -
-| Result[T]           | T?, string?      | -
+| Result              | boolean, string? | -                                     |
+| Result[T]           | T?, string?      | -                                     |
 
 ### Interaction mode
 
@@ -79,3 +79,19 @@ A table can have zero or more keys and all of them will be required from the ite
     displayName = "Small and Big Owls"
 }
 ```
+
+
+### BlockPos
+
+BlockPos is just generic table with three requied fields - x, y and z. So, something of this will be enough:
+
+```lua
+{
+    x = 5,
+    y = 7,
+    z = 8
+}
+```
+
+!!! warning
+    In most cases block pos is expected to be relative to the target peripheral like in [scan API](scan.md)'
