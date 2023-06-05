@@ -1,5 +1,8 @@
 # Remote observer
 
+!!! picture inline end
+    ![Remote observer](remote_observer.png)
+
 ??? info "Supported versions"
     **Forge**: 1.19.4
     **Fabric**: 1.19.4
@@ -14,8 +17,8 @@ To configure remote observer, you can use [ultimate configurator](ultimate_confi
 
 | Function                                             | Returns                          | Description                            |
 |------------------------------------------------------|----------------------------------|----------------------------------------|
-| addPosition([blockPos](introduction.md#blockpos))    | [Result](introduction.md#result) | Tries to add new position to track     |
-| removePosition([blockPos](introduction.md#blockpos)) | [Result](introduction.md#result) | Tries to remove position from tracking |
+| addPosition(pos: [BlockPos](introduction.md#blockpos))    | [Result](introduction.md#result) | Tries to add new position to track     |
+| removePosition(pos: [BlockPos](introduction.md#blockpos)) | [Result](introduction.md#result) | Tries to remove position from tracking |
 | getPositions()                                       | table                            | Return list of all tracked positions   |
 
 
@@ -27,6 +30,6 @@ Fires when any observer block changes it block state (take a note, that this hap
 
 #### Values
 
-1. `blockPos: table` relative position of block, that changed
+1. `blockPos`: [BlockPos](introduction.md#blockpos) relative position of block, that changed
 2. `oldState: table` lua table with old block state
 3. `newState: table` lua table with new block state

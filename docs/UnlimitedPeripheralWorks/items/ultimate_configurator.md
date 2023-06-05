@@ -1,10 +1,13 @@
 # Ultimate configurator
 
+!!! picture inline end
+    ![Ultimate configurator](ultimate_configurator.png)
+
 Tool, that allows you to configure peripherals from this mod.
 
 List of integration:
-- Remote observer
-- Peripheral proxy
+- [Remote observer](remote_observer.md)
+- [Peripheral proxy](peripheral_proxy.md)
 
 Using configurator is pretty easy task:
 

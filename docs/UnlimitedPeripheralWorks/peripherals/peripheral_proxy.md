@@ -1,5 +1,8 @@
 # Peripheral proxy
 
+!!! picture inline end
+    ![Peripheral proxy](peripheral_proxy.png)
+
 ??? info "Supported versions"
     **Forge**: 1.19.4
     **Fabric**: 1.19.4

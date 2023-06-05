@@ -1,5 +1,9 @@
 # Protective automata
 
+!!! picture inline end
+    ![Protective automata](protective_automata.png)
+
+
 ??? info "Supported versions"
     **Forge**: 1.19.4
     **Fabric**: 1.19.4
