@@ -1,9 +1,9 @@
 # Mercantile automata
 
-Automata that harness power of wandering trader, allows you to trade with other (more lucky) wandering traders and villagers.
-
 !!! picture inline end
     ![Mercantile automata](mercantile_automata.png)
+
+Automata that harness power of wandering trader, allows you to trade with other (more lucky) wandering traders and villagers.
 
 ## Obtaining
 
