@@ -4,8 +4,8 @@
     ![Map pedestal](map_pedestal.png)
 
 ??? info "Supported versions"
-    **Forge**: 1.19.4
-    **Fabric**: 1.19.4
+    **Forge**: 1.19.4, 1.20.x
+    **Fabric**: 1.19.4, 1.20.x
 
 One cute pedestal is nice, but two cute pedestals is much better. In additionally to being cute, this pedestal allows you to get information from minecraft maps and even update them time to time. And because of this, only maps can be placed on this pedestal. Place map with right click, and retrieve map back with left click with empty hand.
 

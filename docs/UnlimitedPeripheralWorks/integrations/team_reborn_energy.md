@@ -6,4 +6,4 @@ If teamreborn energy is present, several useful integrations will be loaded:
 - Turtles can be refueled by any item, that contains energy. By default, 50 points of energy is 1 turtle fuel point.
 
 ??? info "Supported versions"
-    **Fabric**: 1.18, 1.19.2, 1.19.4
+    **Fabric**: 1.18, 1.19.2, 1.19.4, 1.20.x

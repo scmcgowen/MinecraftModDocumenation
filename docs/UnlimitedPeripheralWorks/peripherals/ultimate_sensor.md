@@ -4,8 +4,8 @@
     ![Ultimate sensor](ultimate_sensor.png)
 
 ??? info "Supported versions"
-    **Forge**: 1.19.4
-    **Fabric**: 1.19.4
+    **Forge**: 1.19.4, 1.20.x
+    **Fabric**: 1.19.4, 1.20.x
 
 The end goal of the ultimate sensor is to be able to sense literally anything. But for now, its scope is somewhat limited by real world and your imagination to use it.
 

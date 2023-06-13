@@ -6,7 +6,7 @@
 [Easy Villagers](https://www.curseforge.com/minecraft/mc-mods/easy-villagers) is a mod that simplifies villager trading a lot and provides the ability to automatically trade with them.
 
 ??? info "Supported versions"
-    **Forge**: 1.19.4
+    **Forge**: 1.19.4, 1.20.x
 
 ## Trader
 

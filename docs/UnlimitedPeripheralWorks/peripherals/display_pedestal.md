@@ -4,8 +4,8 @@
     ![Dispaly pedestal](display_pedestal.png)
 
 ??? info "Supported versions"
-    **Forge**: 1.19.4
-    **Fabric**: 1.19.4
+    **Forge**: 1.19.4, 1.20.x
+    **Fabric**: 1.19.4, 1.20.x
 
 This pedestal can display anything. Like, literally any item in the game. It is such a pity, that you can't take this item, because this is just a visualization. To compensate this disturbing filling of lost opportunities, this pedestal will also fire events when someone click on it with left or right mouse button.
 

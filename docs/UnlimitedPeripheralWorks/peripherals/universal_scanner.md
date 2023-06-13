@@ -4,8 +4,8 @@
     ![Univesal scanner](universal_scanner.png)
 
 ??? info "Supported versions"
-    **Forge**: 1.19.4
-    **Fabric**: 1.19.4
+    **Forge**: 1.19.4, 1.20.x
+    **Fabric**: 1.19.4, 1.20.x
 
 Universal scanner, that can be used as a separate block or a pocket computer/turtle upgrade. This peripheral designed to provide detail important information about surrounding world.
 

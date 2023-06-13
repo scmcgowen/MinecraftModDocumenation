@@ -4,8 +4,8 @@
     ![Remote observer](remote_observer.png)
 
 ??? info "Supported versions"
-    **Forge**: 1.19.4
-    **Fabric**: 1.19.4
+    **Forge**: 1.19.4, 1.20.x
+    **Fabric**: 1.19.4, 1.20.x
 
 Observer is a perfect tool for tracking remote changes. But this tools is vastly limited by position and redstone logic. Computer world shouldn't be limited with this! Remote observer allows you to observe block state changes from a small range. And it also works with up to 8 blocks (by default).
 

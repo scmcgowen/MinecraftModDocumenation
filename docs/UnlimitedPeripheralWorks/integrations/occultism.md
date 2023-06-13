@@ -3,7 +3,7 @@
 [Occultism](https://www.curseforge.com/minecraft/mc-mods/occultism) is a Minecraft magic mod built around summoning demons and interacting with them.
 
 ??? info "Supported versions"
-    **Forge**: 1.19.4
+    **Forge**: 1.19.4, 1.20.x
 
 ## Occultism Storage
 

@@ -3,6 +3,10 @@
 !!! picture inline end
     ![Ultimate configurator](ultimate_configurator.png)
 
+??? info "Supported versions"
+    **Forge**: 1.19.4, 1.20.x
+    **Fabric**: 1.19.4, 1.20.x
+
 Tool, that allows you to configure peripherals from this mod.
 
 List of integration:

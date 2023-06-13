@@ -5,11 +5,8 @@
 
 
 ??? info "Supported versions"
-    **Forge**: 1.19.4
-    **Fabric**: 1.19.4
-
-<!-- !!! picture inline end
-    ![Husbandry automata turtle](husbandry_automata_turtle.png) -->
+    **Forge**: 1.19.4, 1.20.x
+    **Fabric**: 1.19.4, 1.20.x
 
 Advanced automata that can harness power of the iron golem to protect. This automata provider extra capabilities of take care of hostile mobs.
 

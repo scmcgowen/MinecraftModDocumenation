@@ -4,8 +4,8 @@
     ![Peripheralium hub](peripheralium_hub_turtle.png)
 
 ??? info "Supported versions"
-    **Forge**: 1.19.4
-    **Fabric**: 1.19.4
+    **Forge**: 1.19.4, 1.20.x
+    **Fabric**: 1.19.4, 1.20.x
 
 Turtle limited to two upgrade slots and pocket computers to one. With all this nasty new add-ons to CC:T it sometimes becomes a pain to select what upgrade you want to install. But with this hub, you can install all of them! 
 
