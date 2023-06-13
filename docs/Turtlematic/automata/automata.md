@@ -18,5 +18,6 @@ This automata core can be supplied with souls via [soul scrapper](soul_scrapper.
 - [Fuel API](fuel.md)
 - [Operation API](operation.md)
 - [Look API](look.md)
+- [Suck API](suck.md)
 - [Interaction API](interaction.md): only interaction with blocks are allowed
 - [Scan API](scan.md): only interaction with items are allowed

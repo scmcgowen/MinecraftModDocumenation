@@ -15,6 +15,7 @@ Feed wandering trader to forged automata core with [soul scrapper](soul_scrapper
 - [Fuel API](fuel.md)
 - [Operation API](operation.md)
 - [Look API](look.md)
+- [Suck API](suck.md)
 - [Experience API](experience.md)
 - [Scan API](scan.md): only for items and merchants
 

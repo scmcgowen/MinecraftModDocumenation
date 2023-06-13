@@ -14,6 +14,7 @@ Feed librarian villager to forged automata core with [soul scrapper](soul_scrapp
 - [Configuration API](configuration.md)
 - [Fuel API](fuel.md)
 - [Operation API](operation.md)
+- [Suck API](suck.md)
 - [Experience API](experience.md)
 
 ## Extra methods

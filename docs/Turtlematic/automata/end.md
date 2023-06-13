@@ -15,6 +15,7 @@ Feed 3 enderman souls to [automata core](automata.md) with [soul scrapper](soul_
 - [Fuel API](fuel.md)
 - [Operation API](operation.md)
 - [Look API](look.md)
+- [Suck API](suck.md)
 - [Interaction API](interaction.md): only interaction with blocks are allowed
 - [Scan API](scan.md): only interaction with items are allowed
 - [Warp API](warp.md)

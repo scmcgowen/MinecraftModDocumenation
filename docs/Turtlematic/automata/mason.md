@@ -19,6 +19,7 @@ Feed mason villager to forged automata core with [soul scrapper](soul_scrapper.m
 - [Fuel API](fuel.md)
 - [Operation API](operation.md)
 - [Look API](look.md)
+- [Suck API](suck.md)
 - [Experience API](experience.md)
 
 ## Extra methods

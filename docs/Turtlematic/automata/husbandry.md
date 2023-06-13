@@ -15,6 +15,7 @@ Feed 1 pig, 1 chiken, 1 sheep and 1 cow souls to [automata core](automata.md) wi
 - [Fuel API](fuel.md)
 - [Operation API](operation.md)
 - [Look API](look.md)
+- [Suck API](suck.md)
 - [Interaction API](interaction.md): allows interaction with blocks and some entities
 - [Scan API](scan.md): allows interaction with items and some entities
 - [Capture API](capture.md): only interaction with some entities

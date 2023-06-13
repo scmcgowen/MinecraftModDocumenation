@@ -15,6 +15,7 @@ Feed toolsmithing villager to forged automata core with [soul scrapper](soul_scr
 - [Fuel API](fuel.md)
 - [Operation API](operation.md)
 - [Look API](look.md)
+- [Suck API](suck.md)
 - [Experience API](experience.md)
 
 ## Extra methods
