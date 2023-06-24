@@ -3,8 +3,8 @@
 With this integration, you can use Nature's Compass as an upgrade for turtle and pocket computers!
 
 ??? info "Supported versions"
-    **Fabric**: 1.19.4
-    **Forge**: 1.19.4
+    **Fabric**: 1.19.4, 1.20.x
+    **Forge**: 1.19.4, 1.20.x
 
 ### Peripheral methods
 

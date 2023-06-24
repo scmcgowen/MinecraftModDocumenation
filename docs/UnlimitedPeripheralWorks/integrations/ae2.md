@@ -12,19 +12,19 @@ This integration allows you to interact with AE2 network itself, transforming so
 > - Crystal grown accelerator
 
 ??? info "Supported versions"
-    **Fabric**: 1.18, 1.19.2
+    **Fabric**: 1.18, 1.19.2, 1.20.x
+    **Forge**: 1.20.x
 
 ## Supported APIs
 
 - [Item storage](item_storage.md) API for all items, that stored inside system
 - [Fluid storage](https://tweaked.cc/generic_peripheral/fluid_storage.html) API for all fluids, that stored inside system
+- [Energy storage](https://tweaked.cc/generic_peripheral/energy_storage.html) API for energy inside system.
 
 ## Additional peripheral methods
 
 | Function                                                                         | Returns | Description                                                                                        |
 | -------------------------------------------------------------------------------- | ------- | -------------------------------------------------------------------------------------------------- |
-| getEnergy()                                                                      | number  | Returns amount of stored energy in AE2 system                                                      |
-| getEnergyCapacity()                                                              | number  | Returns amount of max stored energy in AE2 system                                                  |
 | getAverageEnergyDemand()                                                         | number  | Returns average energy demand of AE2 system                                                        |
 | getAverageEnergyIncome()                                                         | number  | Returns average energy income for AE2 system                                                       |
 | getChannelEnergyDemand()                                                         | number  | Returns amount of energy that spent for channels                                                   |
