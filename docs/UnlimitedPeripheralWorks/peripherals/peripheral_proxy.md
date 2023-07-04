@@ -7,11 +7,11 @@
     **Forge**: 1.19.4, 1.20.x
     **Fabric**: 1.19.4, 1.20.x
 
-Cables seems a little obsolete now, in real world you can freely use wireless transfer (even for energy and items), why this shouldn't work in Minecraft? So, here is goes peripheral proxy, nice tool to connect remote peripherals to the computer without actual wires. Sadly it has limited range, but how is ideal today?
+Cables seem a little obsolete now, in the real world you can freely use wireless transfer (even for energy and items), why shouldn't this work in Minecraft? So, here is the peripheral proxy, a nice tool to connect remote peripherals to the computer without actual wires. Sadly it has limited range, but you can't have everything, can you?
 
 ## How to configure
 
-To configure peripheral proxy, you can use [ultimate configurator](ultimate_configurator.md). 
+To configure the peripheral proxy, you can use the [ultimate configurator](ultimate_configurator.md). 
 
 ## Supported APIs
 
